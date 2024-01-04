@@ -1,0 +1,13 @@
+[package]
+name = "min_repro"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+quickcheck = { version = "1", default-features = false }
+rand = "0.8"
+tempfile = "3.8"
+sha1_smol = "1.0"
+anyhow = "1"
